@@ -1,0 +1,19 @@
+docker pull alpine
+
+docker images
+
+docker run alpine ls -l
+
+docker run alpine echo "hello from alpine"
+
+docker run alpine /bin/sh
+
+docker ps
+
+docker ps -la
+
+docker run -it alpine /bin/sh
+
+docker pull mysql
+
+docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql
