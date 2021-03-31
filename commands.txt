@@ -16,4 +16,10 @@ docker run -it alpine /bin/sh
 
 docker pull mysql
 
+docker rmi [imsge name]
+
+docker inspect [containerId]
+
+docker stop [containerId]
+
 docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql
